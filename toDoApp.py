@@ -18,6 +18,7 @@ def removetask(tasknumber):
     print("Task removed successfully!")
 
 def main():
+    print("bakal ako")
     while True:
         print("[1] Add Task")
         print("[2] Show Tasks")
