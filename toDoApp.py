@@ -2,16 +2,16 @@
 
 tasks=[]
 
-def addtask(task) :
+def addtask(task):
   tasks.append(task)
   print("Task added successfully!")
 
-def showTasks( ):
+def showTasks():
     if len(tasks)==0 :
-      print("No tasks added yet.")
+        print("No tasks added yet.")
     else:
-     for i in range (len(tasks)):
-      print(i+1,".",tasks[i])
+        for i in range (len(tasks)):
+            print(i+1,".",tasks[i])
 
 def removetask(tasknumber):
     tasks.pop(tasknumber) 
